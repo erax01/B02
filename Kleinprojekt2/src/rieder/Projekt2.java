@@ -20,4 +20,13 @@ public class Projekt2 {
 		int eingabe2 = s.nextInt();
 		return (eingabe1 * eingabe2);
 	}
+	public static int Modulo() {
+		System.out.println("Modulo:");
+		System.out.println("Bitte geben Sie den Dividenden ein:");
+		Scanner s = new Scanner(System.in);
+		int eingabe1 = s.nextInt();
+		System.out.println("Bitte geben Sie den Divisor ein:");
+		int eingabe2 = s.nextInt();
+		return (eingabe1 % eingabe2);
+	}
 }
